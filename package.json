@@ -1,0 +1,17 @@
+{
+  "name": "fully-working-setup",
+  "version": "1.0.0",
+  "description": "A dependency-free starter repo with a local web app, server, tests, and linting.",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node src/server.js",
+    "test": "node --test",
+    "lint": "node scripts/lint.js",
+    "check": "node scripts/lint.js && node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
